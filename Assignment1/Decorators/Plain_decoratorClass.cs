@@ -11,6 +11,6 @@ public class Plain_decoratorClass : Decorator<string>
 
     public override string GetText()
     {
-        return "Professor name: Brent Retchie " + base.GetText();
+        return "Professor name: Brent Retchie. " + base.GetText();
     }
 }
